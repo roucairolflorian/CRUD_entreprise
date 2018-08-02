@@ -1,12 +1,12 @@
-<?php
-//------ connexion bdd
-    $pdo = new PDO('mysql:host=localhost;dbnam=entreprise', 'root', '', array
-        (PDO::ATTR_ERRMODE => PDO::ERRMODE_WARNING, PDO::MYSQL_ATTR_INIT => 'SET NAMES utf8'));
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>CRUD_entreprise</title>
+</head>
+<body>
 
-    //------------ session
-    session_start();
-
-    //--------- VARIABLES
-    $content = '';
-    $error = '';
-?>
+</body>
+</html>
